@@ -30,7 +30,6 @@ func SubString(textToSearch string, subtext string) []int {
 	// Get the lengths of both textToSearch and subtext
 	textToSearchLength := len(textToSearch)
 	subtextLength := len(subtext)
-	// tmpText :=
 
 	for i := 0; i < (textToSearchLength - subtextLength); i++ {
 
