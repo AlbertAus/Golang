@@ -9,6 +9,12 @@ func main() {
 	textToSearch := "Peter told me that peter the pickle piper piped a pitted pickle before he petered out. Phew!"
 	subtext := "Peter"
 
+	// If want to get the arguments from command line, just uncomment the follwoing two lines of code.
+	// Using go run substring.go textToSearch subtext to run the programme.
+	/*
+		textToSearch = os.Args[1]
+		subtext = os.Args[2]
+	*/
 	fmt.Print(SubString(textToSearch, subtext))
 }
 
